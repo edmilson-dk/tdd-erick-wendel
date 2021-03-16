@@ -1,0 +1,19 @@
+{
+  "name": "tdd-erick-wendel",
+  "version": "1.0.0",
+  "description": "Test driven development with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Edmilson Jesus",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "lokijs": "^1.5.11",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.3"
+  }
+}
