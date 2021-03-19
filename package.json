@@ -4,6 +4,9 @@
   "description": "Test driven development with nodejs",
   "main": "index.js",
   "scripts": {
+    "test": "npx mocha --parallel --exit test/",
+    "test:dev": "npx mocha test/ -w",
+    "test:cov": "npx nyc --reporters=html,text yarn test",
     "start": "node src/index.js"
   },
   "keywords": [],
